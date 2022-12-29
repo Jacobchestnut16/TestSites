@@ -23,7 +23,7 @@ nav{
 nav ul{
     list-style: none;
     width: 100%;
-    font-size: 2.5em;
+    font-size: 1em;
 }
 nav ul li{
     width: 33.33%;
@@ -59,7 +59,7 @@ section article{
     margin: 8px;
     float: left;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 0.8em;
     background-color: rgb(71,94,151);
     padding: 10px 3px;
     border-radius: 20px;
@@ -67,7 +67,7 @@ section article{
     box-shadow: rgb(100,100,100) 5px 0 20px;
 }
 section article h2{
-    font-size: 1.35em;
+    font-size: 1em;
     padding: 10px;
 }
 section article a img{
@@ -119,7 +119,7 @@ sec article{
     width: 47%;
     float: left;
     padding: 20px;
-    font-size: 2em;
+    font-size: 1em;
     color: whitesmoke;
 }
 
