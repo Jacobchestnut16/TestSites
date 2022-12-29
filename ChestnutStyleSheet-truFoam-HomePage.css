@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 89%;
+    margin: 0 auto;
+    background-color: rgb(230,230,230);
+
+}
+img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-shadow: black 5px 0 50px;
+    /*animation: loadImgFirst 2s;*/
+}
+
+
+nav{
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    font-size: 2.5em;
+}
+nav ul li{
+    width: 33.33%;
+    float: left;
+    background-color: rgb(75,75,75);
+    height: 2.25em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a:hover{
+    background-color: rgb(200,200,200);
+    color: rgb(71,94,151);
+}
+/*color should stay after selection*/
+nav ul li a:after{
+    color: rgb(71,94,151);
+}
+
+section{
+    width: 100%;
+    display: flex;
+    box-shadow: black 5px 0 50px;
+}
+section article{
+    width: 23.9%;
+    margin: 8px;
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgb(71,94,151);
+    padding: 10px 3px;
+    border-radius: 20px;
+    color: rgb(245,245,245);
+    box-shadow: rgb(100,100,100) 5px 0 20px;
+}
+section article h2{
+    font-size: 1.35em;
+    padding: 10px;
+}
+section article a img{
+    position: relative;
+    z-index: 0;
+    border-radius: 20px;
+    border: white 2px solid;
+    width: 80%;
+    margin: 5px;
+}
+section article a img:hover{
+    width: 95%;
+    z-index: 1;
+    border: rgb(71,94,151) 5px solid;
+}
+
+section div{
+    display: block;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(210,210,210);
+}
+section div div{
+    width: 102%;
+    background-color: rgb(180,180,180);
+    display: flex;
+    justify-content: center;
+    left: -30px;
+}
+sec{
+    display: block;
+    width: 100%;
+    background-color: rgb(100,100,120);
+    height: 250px;
+    box-shadow: black 5px 0 50px;
+}
+#split-content{
+    width: 100%;
+}
+#split-content-divider{
+    border: black 2px solid;
+    background-color: black;
+    height: 246.9px;
+    width: 1px;
+    float: left;
+}
+sec article{
+    width: 47%;
+    float: left;
+    padding: 20px;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(10,20,25);
+    box-shadow: black 5px 0 50px;
+    font-size: 1.5em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    color: whitesmoke;
+}
+
+
+@keyframes loadImgFirst {
+    from{
+        padding-bottom: 100vh;
+    }
+}
